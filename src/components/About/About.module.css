@@ -23,13 +23,16 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 50px;
-  border: 1px solid black;
 }
 
 .grid div {
   width: 100%;
   height: 300px;
   border: 1px solid black;
+}
+
+.grid div img:hover {
+  scale: 1.05;
 }
 
 .grid div img {

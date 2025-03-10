@@ -18,7 +18,7 @@ export default function about() {
       </p>
       <div className={styles.grid}>
         <div>
-          <img src="/pokedex.png" />
+          <img src="/clodsire.avif" />
         </div>
         <div>
           <h2>Pokedex</h2>
@@ -41,7 +41,7 @@ export default function about() {
           </p>
         </div>
         <div>
-        <img src="/pokedex.png" />
+        <img src="/seal.jpg" />
         </div>
       </div>
     </div>
