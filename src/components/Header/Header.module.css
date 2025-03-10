@@ -9,6 +9,10 @@
   background-color: #313131;
   color: white;
   box-shadow: 10 5px 5px rgba(145, 7, 7, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -30,4 +34,9 @@
 .lista li:hover {
   cursor: pointer;
   color: rgb(197, 168, 168);
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
 }

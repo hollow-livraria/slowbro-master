@@ -5,16 +5,18 @@ export default function header() {
   return (
     <>
       <header className={styles.header}>
-        <Image
+        <a href="#"><Image
           src="/logo.webp"
           width={100}
           height={100}
           className={styles.logo}
         />
+        </a>
         <ul className={styles.lista}>
-          <li>Pokemons</li>
-          <li>Items</li>
-          <li>About</li>
+          <a href="#pokemons"><li>Pokemon</li></a>
+          <a href="#sobre"><li>Pokedex</li></a>
+          <a href="#aboutUs"><li>About</li></a>
+
         </ul>
       </header>
     </>

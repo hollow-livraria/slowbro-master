@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function card() {
   return (
-    <div className={styles.containerCard}>
+    <div id="pokemons" className={styles.containerCard}>
       <h2>Slowpoke</h2>
       <Image src="/slowpoke.png" width={150} height={150} />
       <p>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function about() {
   return (
-    <div className={styles.about}>
+    <div id="sobre" className={styles.about}>
       <h2>Aprenda tudo sobre seus pokemons favoritos!</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia
