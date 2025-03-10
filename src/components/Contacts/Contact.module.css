@@ -1,0 +1,36 @@
+.contact {
+    width: 100%;
+    height: 300px;
+    background-color: #313131;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact li {
+    list-style-type: none;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+.contact h3 {
+    color: white;
+}
+
+.logotipo {
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;
+}
+
+.aboutUs, .contactUs, .social {
+    margin-top: 80px;
+
+}
+
+.aboutUs li, .contactUs li, .social li {
+    margin-top: 20px;
+}

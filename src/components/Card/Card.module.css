@@ -1,0 +1,18 @@
+.containerCard {
+  padding: 40px;
+  background-color: #ff8394;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btnCard {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  background-color: #ffe6b4;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

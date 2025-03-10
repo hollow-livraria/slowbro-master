@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  background-color: #313131;
+  color: white;
+  box-shadow: 10 5px 5px rgba(145, 7, 7, 0.1);
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.lista {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.lista li:hover {
+  cursor: pointer;
+  color: rgb(197, 168, 168);
+}

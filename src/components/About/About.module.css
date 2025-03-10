@@ -1,0 +1,48 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px auto 0px auto;
+  width: 800px;
+}
+
+.about h2 {
+  font-size: 35px;
+}
+
+.about p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+
+.grid div {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.grid div img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid div h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.grid div p {
+  font-size: 20px;
+  margin-top: 20px;
+}
